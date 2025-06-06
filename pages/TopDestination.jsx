@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import styles from './TopDestination.module.css';
-import DestinationCard from '../Components/DestinationCard';
+import DestinationCard from '../components/DestinationCard';
 
 const TopDestination = () => {
   const [destinations, setDestinations] = useState([]);

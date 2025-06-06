@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 
-import Navbar from "../Components/Navbar.jsx";
-import Footer from "../Components/Footer.jsx";
+import Navbar from "../components/Navbar.jsx";
+import Footer from "../components/Footer.jsx";
 import Popup from "./PopUp.jsx";
-import ScrollToTop from "../Components/ScrollToTop.jsx";
-import Tawk from "../Components/Tawk.jsx";
+import ScrollToTop from "../components/ScrollToTop.jsx";
+import Tawk from "../components/Tawk.jsx";
 
 import '../styles/globals.css';  
 import '../styles/App.css';      

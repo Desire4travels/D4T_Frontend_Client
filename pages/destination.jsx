@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import DestinationCard from '../Components/DestinationCard';
+import DestinationCard from '../components/DestinationCard';
 
 const ITEMS_PER_PAGE = 12;
 const tripTypes = ['All', 'Mountain', 'Beach', 'Religious', 'Treks', 'Offbeat', 'Other'];
